@@ -53,6 +53,7 @@ export default function Array() {
     setArray(numbers);
     setCount(0);
     setColor(null);
+    setIsStarted(false);
   }
 
   return (

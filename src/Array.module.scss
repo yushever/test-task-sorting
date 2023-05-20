@@ -1,5 +1,7 @@
 .container {
-  text-align: center;
+  width: 600px;
+  max-width: calc(100% - 20px);
+  margin: 0 auto;
   .array {
     display: flex;
     justify-content: center;

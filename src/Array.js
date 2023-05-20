@@ -25,13 +25,8 @@ export default function Array() {
           array[count + 1] = temp;
           setColor("medium");
         }, timerTime / 2);
-
         setTimeout(() => {
-          if (count === 0) {
-            setCount(1);
-          } else {
-            setCount(0);
-          }
+          count === 0 ? setCount(1) : setCount(0);
         }, timerTime);
       } else {
         setTimeout(() => {

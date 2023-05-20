@@ -1,0 +1,24 @@
+$color-extradark: #093d54;
+$color-dark: #146c94;
+$color-medium: #19a7ce;
+$color-light: #afd3e2;
+
+.cell {
+  border: 2px solid $color-dark;
+  color: $color-extradark;
+  padding: 1em;
+  margin-right: 0.3em;
+  font-size: 2em;
+  min-width: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px 0 $color-dark;
+}
+
+.light {
+  background-color: $color-light;
+}
+.medium {
+  background-color: $color-medium;
+}
